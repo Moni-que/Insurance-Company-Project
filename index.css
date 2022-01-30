@@ -1,15 +1,17 @@
 h1{
     padding-left: 200px;
     padding-top: 30px;
+    padding-bottom: 200px;
 }
 .navbar{
     
-    padding: 0;
+    padding-right: 900px;
     margin: 0;
 }
 .navbar li{
     float: right;
     list-style: none;
+    font-size: larger;
     
 }
 .navbar a{
@@ -17,4 +19,14 @@ h1{
     display: block;
     text-align: center;
     padding: 14px 16px;
+}
+.center{
+    font-size: 80px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.center2{
+    font-size: large;
+    padding-left: 500px;
+    padding-right: 940px;
 }
