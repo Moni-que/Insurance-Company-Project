@@ -30,3 +30,15 @@ h1{
     padding-left: 500px;
     padding-right: 940px;
 }
+
+.button{
+    border: solid 2px white;
+    border-radius: 100px;
+    padding: 20px 80px;
+    color: white;
+}
+.button:hover{
+    background-color:skyblue;
+    color: black;
+    font-size: medium;
+}
