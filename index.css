@@ -49,4 +49,29 @@ h1{
     color: black;
     font-size: medium;
 }
+.first{
+    height: 20vh;
+    border: 2px solid blue;
+    margin: auto;
+    max-width: 200px;
+    padding-left: 20px;
+    display: inline;
+    float: left;
+}
 
+.second{
+    height: 20vh;
+    border: 2px solid blue;
+    margin: auto;
+    max-width: 200px;
+    padding-left: 20px;
+}
+.third{
+    height: 20vh;
+    border: 2px solid blue;
+    margin: auto;
+    max-width: 200px;
+    padding-left: 20px;
+    float: right;
+    display: inline;
+}
