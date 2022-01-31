@@ -84,6 +84,7 @@ h1{
     margin: 0;
     background-size: cover;
     height: 0px;
+    background-repeat: no-repeat;
 
 
 }
