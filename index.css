@@ -115,8 +115,40 @@ h1{
 .stars{
     text-align: center;
     width: auto;
+    padding-bottom: 200px;
 }
 .icons{
     text-align: center;
+    padding-bottom: 200px;
 }
-
+#subscription{
+    font-size: xx-large;
+    text-align: center;
+    border: solid black 2px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: auto;
+}
+.pricing h2{
+    font-size: xx-large;
+}
+.pricing{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pricing p{
+    padding-left: 735px;
+    padding-right: 735px;
+}
+.freestandardpremiun{
+    text-align: center;
+    width: auto;
+    padding-bottom: 400px;
+}
+.free{
+    float: right;
+    width: 25%;
+    padding: 5px;
+    border: solid black;
+}
