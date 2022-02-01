@@ -86,6 +86,33 @@ h1{
     height: 0px;
     background-repeat: no-repeat;
     width: auto;
+}
+.industry{
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.industry p{
+    padding-right: 640px;
+    padding-left: 640px;
+}
 
+.row{
+    float: right;
+    width: 25%;
+    padding: 5px;
+}
 
+.stars::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.row p{
+    padding-left: 135px;
+    padding-right: 135px;
+}
+.stars{
+    text-align: center;
+    width: auto;
 }
