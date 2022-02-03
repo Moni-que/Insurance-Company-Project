@@ -1,9 +1,16 @@
-
 *{
     margin: 0;
     padding: 0;
 }
 
+.section1{
+    background-size: cover;
+    background: url("./images/image1.png");
+    background-position: center center;
+   
+   background-repeat: no-repeat;
+
+}
 
 h1{
     padding-left: 200px;
@@ -11,7 +18,7 @@ h1{
     padding-bottom: 200px;
 }
 .navbar{
-    
+        
     padding-right: 900px;
     margin: 0;
 }
@@ -79,14 +86,8 @@ h1{
     float: right;
     display: inline;
 }
-.background{
-    padding: 0;
-    margin: 0;
-    background-size: cover;
-    height: 0px;
-    background-repeat: no-repeat;
-    width: auto;
-}
+
+
 .industry{
     font-size: x-large;
     text-align: center;
@@ -136,6 +137,7 @@ h1{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    
 }
 .pricing p{
     padding-left: 735px;
@@ -144,19 +146,91 @@ h1{
 .freestandardpremiun{
     text-align: center;
     width: auto;
-    padding-bottom: 400px;
+    padding-bottom: 900px;
 }
 .free{
     float: right;
-    width: 25%;
     padding: 5px;
-    border: solid black;
-    height: 500px;
+    border: solid blue 1px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 33.3%;
 }
+.ul{
+    list-style-type: none;
+}
+
+.freestandardpremiun .ul li{
+    list-style: none;
+}
+
 .standard{
     float: right;
-    width: 25%;
+    border-radius: 10px;
+    height: 300px;
+    background-Color: #252B42;
+    color: white;
     padding: 5px;
-    border: solid black;
-    height: 600px;
+}
+.colored{
+    background-color: #252B42;
+    color: white;
+    padding-bottom: 500px;
+    text-align: center;
+}
+.earth{
+    float: right;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+.colored h2{
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: 62px;
+    padding-bottom: 50px;
+}
+.colored p{
+    padding-right: 1155px;
+    padding-left: 300px;
+}
+
+.monique{
+    padding-left: 300px;
+    margin-top: -300px;
+    display: flex;
+}
+.monique2 ul li{
+    list-style: none;
+}
+
+.trial{
+    margin: 100px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color:skyblue;
+    border-radius: 6px;
+}
+.shortlongshort{
+}
+.bookinglist{
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-top: 20px;
+    background-color: white;
+}
+.lastbutton{
+    background-color: skyblue;
+    margin-right: 100px;
+    margin-left: 80px;
+    margin-top: 300px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: larger; 
 }
