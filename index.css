@@ -234,3 +234,23 @@ h1{
     border-radius: 5px;
     font-size: larger; 
 }
+.contactus{
+    background-color: skyblue;
+    float: right;
+    margin-bottom: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-right: 300px;
+    border-radius: 5px;
+}
+.consult{
+    padding-top: 200px;
+}
+.consult h2{
+    padding-left: 200px;
+}
+.consult p{
+    padding-left: 200px;
+}
