@@ -277,7 +277,7 @@ h1{
 }
 .monique2 ul li{
     list-style: none;
-    padding: 3px 6px;
+    padding: 20px;
 }
 
 .trial{
@@ -301,8 +301,7 @@ h1{
 .lastbutton{
     background-color: skyblue;
     margin-right: 100px;
-    margin-left: 80px;
-    margin-top: 300px;
+    margin-left: 40px;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 10px;
