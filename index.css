@@ -293,24 +293,23 @@ padding: 20px;
 .colored{
     background-color: #252B42;
     color: white;
-    
     text-align: center;
-    display: flex;
+    padding-bottom: 200px;
+
 }
 .earth{
     float: right;
 }
 .colored h2{
-
+padding-top: 100px;
 }
 .colored p{
-    padding-right: 1155px;
-    padding-left: 300px;
+
 }
 
 .monique{
     padding-left: 300px;
-    margin-top: -300px;
+    margin-top: -100px;
     display: flex;
 }
 .monique2 ul li{
