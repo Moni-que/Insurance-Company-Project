@@ -93,18 +93,18 @@ h1{
     border: solid 2px white;
     border-radius: 100px;
     padding: 20px 80px;
-    color: blue;
+    color: #23A6F0;
     margin-bottom: 50px;
 }
     
 .button:hover{
-    background-color:skyblue;
+    background-color: #23A6F0;
     color: black;
     font-size: medium;
 }
 .first{
     height: 20vh;
-    border: 2px solid blue;
+    border: 2px solid #23A6F0;
     margin: auto;
     max-width: 200px;
     padding-left: 20px;
@@ -114,21 +114,21 @@ h1{
 
 .second{
     height: 20vh;
-    border: 2px solid blue;
+    border: 2px solid #23A6F0;
     margin: auto;
     max-width: 200px;
     padding-left: 20px;
 }
 .third{
     height: 20vh;
-    border: 2px solid blue;
+    border: 2px solid #23A6F0;
     margin: auto;
     max-width: 200px;
     padding-left: 20px;
 }
 .card{
     width:100%;
-    border:2px skyblue solid;
+    border:2px #23A6F0 solid;
     text-align: center;
     margin:1%;
     padding-bottom: 100px;
@@ -177,15 +177,13 @@ padding: 20px;
     text-align: center;
     padding-bottom: 200px;
 }
-.industry p{
-    padding-right: 640px;
-    padding-left: 640px;
-}
+
 
 .row{
     float: right;
     width: 25%;
     padding: 5px;
+    margin: 40px;
 }
 
 .stars::after{
@@ -193,10 +191,9 @@ padding: 20px;
     clear: both;
     display: table;
 }
-.row p{
-    padding-left: 135px;
-    padding-right: 135px;
-}
+
+
+
 .stars{
     text-align: center;
     width: auto;
@@ -233,7 +230,7 @@ padding: 20px;
     padding-bottom: 10px;
 }
 .subscription2{
-    background-color: skyblue;
+    background-color: #23A6F0;
     margin-left: 60px;
     padding-left: 20px;
     padding-right: 20px;
@@ -248,25 +245,26 @@ padding: 20px;
 }
 .pricing{
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
+    width: 100%;
+    position: absolute;
+    align-content: center;
+    margin-top: 100px;
 }
-.pricing p{
-    padding-left: 735px;
-    padding-right: 735px;
-}
+
 .freestandardpremiun{
-    text-align: center;
-    width: auto;
-    padding-bottom: 200px;
-    margin-right: 300px;
-    height: 500px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    padding-bottom: 150px;
+    padding-top: 300px;
 }
+
+
 .free{
     float: right;
     padding: 5px;
-    border: solid blue 1px;
+    border: solid #23A6F0 1px;
     height: 500px;
     padding: 5px;
     border-radius: 10px;
@@ -284,30 +282,26 @@ padding: 20px;
 }
 
 .standard{
-    float: right;
+    
     border-radius: 10px;
     background-Color: #252B42;
     color: white;
     padding: 5px;
     padding-bottom: 204px;
-    height: 320px;
+    height: 505px;
 }
 .colored{
     background-color: #252B42;
     color: white;
-    padding-bottom: 500px;
+    
     text-align: center;
+    display: flex;
 }
 .earth{
     float: right;
-    padding-right: 100px;
-    padding-top: 100px;
 }
 .colored h2{
-    padding-left: 200px;
-    padding-top: 100px;
-    font-size: 62px;
-    padding-bottom: 50px;
+
 }
 .colored p{
     padding-right: 1155px;
@@ -330,11 +324,15 @@ padding: 20px;
     padding-right: 60px;
     padding-bottom: 20px;
     padding-top: 10px;
-    background-color:skyblue;
+    background-color: #23A6F0;
     border-radius: 6px;
     text-align: center;
 }
 .shortlongshort{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-content: center;
 }
 .bookinglist{
     padding-left: 50px;
@@ -354,7 +352,7 @@ padding: 20px;
     font-size: larger; 
 }
 .contactus{
-    background-color: skyblue;
+    background-color: #23A6F0;
     float: right;
     margin-bottom: 100px;
     padding-right: 80px;
